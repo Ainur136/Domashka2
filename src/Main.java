@@ -6,12 +6,12 @@ public class Main {
 
         int sum;
         int result;
-        if (ticket >0) {
+        if (ticket > 0) {
             result = ticket / bonus;
             System.out.println("Начислено миль: " + result);
         } else {
             sum = bonus * miles;
-            System.out.println("На сумму: " + sum +"руб. Получите: "+ miles + " Миль");
+            System.out.println("На сумму: " + sum + "руб. Получите: " + miles + " Миль");
         }
 
     }
